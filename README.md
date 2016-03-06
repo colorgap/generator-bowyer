@@ -1,4 +1,4 @@
-# generator-bowyer [![0.1.1][npm-image]][https://www.npmjs.com/package/bowyer] 
+# generator-bowyer
 > Yeoman generator for bowyer
 
 ## Installation
