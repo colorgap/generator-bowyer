@@ -1,4 +1,4 @@
-# generator-bowyer
+# generator-bowyer - under development
 > Yeoman generator for bowyer
 
 ## Installation
