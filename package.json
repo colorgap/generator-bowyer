@@ -1,0 +1,45 @@
+{
+  "name": "bowyer",
+  "version": "0.1.1",
+  "description": "Yeoman generator for bowyer",
+  "homepage": "http://bowyer.colorgap.com",
+  "author": {
+    "name": "colorgap",
+    "email": "admin@colorgap.com",
+    "url": "https://www.colorgap.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "Lumen",
+    "Angular",
+    "Nodejs",
+    "Scaffolding"
+  ],
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.10.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "colorgap/generator-bowyer",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
